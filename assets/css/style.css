@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.bg-img {
+    background-image: url(/assets/img/body\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+body {
+    background-color: black;
+}
+
+.signhead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    color: #030712;
+    width: 109px;
+    height: 43px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+}
+
+.havehead {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #62656D;
+}
+
+.herehead {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #2563EB;
+    cursor: pointer;
+}
+
+
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt32 {
+    margin-top: 32px;
+}
+
+.emailhead {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #9197A6;
+    border-radius: 6px;
+    border: 1px solid #E4EAF7;
+    padding-left: 44px;
+    outline: none;
+}
+
+.bg-blue {
+    background: #F5F8FF;
+}
+
+.posi-relative {
+    position: relative;
+}
+
+.icon-email {
+    position: absolute;
+    top: 13px;
+    left: 17px;
+}
+
+.icon-gmail {
+    position: absolute;
+    top: 13px;
+    left: 46.2px;
+}
+
+.w-340 {
+    width: 340px;
+}
+
+.h-44 {
+    height: 44px;
+}
+
+.icon-hide {
+    position: absolute;
+    top: 13px;
+    left: 300px;
+}
+
+.box {
+    width: 14px;
+    height: 14px;
+    padding: 2.33px;
+    gap: 5.83px;
+    border-radius: 2.33px;
+    background: #2563EB;
+}
+
+.mt-15 {
+    margin-top: 15.5px;
+}
+
+.passhead {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #62656D;
+    margin-left: 118px;
+    cursor: pointer;
+}
+
+
+
+.inhead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #246AEE;
+    width: 340px;
+    height: 48px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 24px;
+    border: 1px solid #246AEE;
+    transition: 0.5s;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mehead {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #62656D;
+    margin-top: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.line {
+    width: 113px;
+    background: #C9CFDB;
+    height: 1px;
+    margin-top: 26px;
+}
+
+.line2 {
+    width: 110px;
+    background: #C9CFDB;
+    height: 1px;
+    margin-top: 26px;
+}
+
+.withhead {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    color: #9197A6;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.w-166 {
+    width: 166px;
+}
+
+.h-41 {
+    height: 41px;
+}
+
+
+.gmailhead {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #62656D;
+}
+
+
+
+
+
+.gbox {
+    width: 166px;
+    height: 41px;
+    padding: 10px 16px 10px 16px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px;
+    border: 1px solid #E4EAF7;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.mt-20 {
+    margin-top: 20.5px;
+}
+
+.background-img {
+    background-image: url(/assets/img/col-6\ img\ .png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-img {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.img2 {
+    position: absolute;
+    left: 50px;
+    top: 94px;
+}
+
+.posi-absolute {
+    position: absolute;
+    top: 15%;
+    left: 1%;
+}
+
+.icon-in {
+    position: absolute;
+    top: 34%;
+    left: 1%;
+}
+
+.icon-insta {
+    position: absolute;
+    top: 56%;
+    left: 1%;
+}
+
+.icon-tweet {
+    position: absolute;
+    top: 76%;
+    left: 1%;
+}
+
+.img3 {
+    position: absolute;
+    left: 246px;
+    top: 137px;
+}
+
+
+.justify-left {
+    justify-content: left;
+}
+
+.fd-colmn {
+    flex-direction: column;
+}
+
+.ml-3 {
+    margin-left: 3px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
